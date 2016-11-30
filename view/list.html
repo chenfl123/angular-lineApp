@@ -1,0 +1,23 @@
+<div class="page-header m_head">
+    <a href="javascript:history.go(-1)" class="glyphicon glyphicon-chevron-left"></a><h3>{{page.title}}<span class="glyphicon glyphicon-align-justify"></span></h3>
+</div>
+<div class="homePage">
+    <div class="contentlist">
+        <ul class="l_left">
+            <li ng-click="class('clothes')" ng-class="{active:current=='clothes'}">唯美服饰</li>
+            <li ng-click="class('earing')" ng-class="{active:current=='earing'}">精品耳环</li>
+            <li ng-click="class('watch')" ng-class="{active:current=='watch'}">世界名表</li>
+            <li ng-click="class('perfume')" ng-class="{active:current=='perfume'}">法国香水</li>
+            <li ng-click="class('suit')" ng-class="{active:current=='suit'}">清新套装</li>
+        </ul>
+        <div class="l_right">
+            <ul class="c_list">
+                <li ng-repeat="item in type">
+                    <a ng-href="#/goods/{{item.id}}"><img ng-src="{{item.imgurl}}" alt=""></a>
+                </li>
+            </ul>
+        
+
+        </div>
+    </div>
+</div>

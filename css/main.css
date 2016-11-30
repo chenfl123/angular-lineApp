@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+html{font-size:62.5%;}
+.m_head{margin: 4px 0 10px;}
+.m_head a{position: absolute;left: 1rem;top:3%;padding: 1rem;z-index: 10;}
+.m_head h3{text-align: center;font-size:2rem;position: relative;}
+.m_head h3 span{position: absolute;right: 0;top:-40%;z-index: 10;padding: 1rem;font-size:1.5rem;}
+.mainNav{display:flex;height:5rem;line-height:5rem;text-align:center;font-size:1.3rem;}
+.mainNav a{flex:1;}
+.mainNav a:hover{background-color: #efefef;text-decoration: none;}
+.mainNav a.active{background-color: #387e8f;color:#fff;}
+
+.homePage{margin:0  0 5.5rem;}
+.homePage h3{font-size: 1.5rem;margin: 1rem 0;}
+.homePage ul img{width: 13rem;height: 13rem;}
+.homePage ul{margin: 1rem 0;}
+.homePage .c_list,.homePage .x_list{display: flex;flex-wrap: wrap;}
+.homePage .c_list li,.homePage .x_list li{flex: 1;height: 13rem;margin: 0.5rem 0;}
+.homePage .f_list img{width: 100%;}
+.homePage .f_list li{margin: 0.5rem 0;}
+
+.homePage .contents img{width: 100%;height: 18rem;}
+.homePage .contents p{margin: 1rem;}
+.homePage .contents p .price{color: red;font-size: 1.8rem;}
+
+.homePage .contentlist{display: flex;}
+.homePage .contentlist .l_left{flex: 1;box-shadow: 0px 0px 2px #999;height:30rem;}
+.homePage .contentlist .l_left li{padding: 1.5rem 0;text-align: center;}
+.homePage .contentlist .l_left li.active{color: #fff;background: #387e8f;}
+.homePage .contentlist .l_right{flex:4;}
+.homePage .contentlist .l_right img{width: 8.2rem;height: 8rem;}
+.homePage .contentlist .l_right li{height: 8rem;text-align: center;}
